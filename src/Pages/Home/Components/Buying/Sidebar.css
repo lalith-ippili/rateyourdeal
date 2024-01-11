@@ -1,0 +1,40 @@
+.Search-total-div {
+    margin: 10px;
+    border-radius: 10px;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    width: 20vw;
+    color: black;
+  }
+  .Searchbarinput {
+    height: 39px;
+    width: 198px;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0px;
+    box-shadow: 2px 2px 4px 4px rgb(246, 236, 236);
+  }
+  .Disticnames {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .Disticnames-total {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .Searchbar-head {
+    color: black;
+    text-align: center;
+  }

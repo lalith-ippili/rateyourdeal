@@ -1,0 +1,92 @@
+.Contactform-total-div {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://i.pinimg.com/564x/92/75/13/92751382352505dbbcc375afc0416f79.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Contactform-form-div {
+  background-color: black;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 80px;
+}
+.Contact-input-tag {
+  outline: none;
+  border: none;
+  height: 30px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+  margin: 2px;
+  border-bottom: 3px solid rgb(76, 75, 75);
+}
+.Contact-form-side-image {
+  height: 400px;
+  width: 400px;
+}
+.Contact-form-formtag {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Contact-forn-submit-button {
+  height: 36px;
+  width: 90px;
+  font-size: 17px;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Contact-forn-submit-button:hover {
+  border: 1px solid green;
+  color: green;
+  background-color: black;
+}
+.contact-form-spam-tag {
+  cursor: pointer;
+  color: violet;
+  font-size: 25px;
+}
+.contact-form-below-text {
+  color: rgb(110, 249, 249);
+}
+.contact-form-mail-button {
+  height: 30px;
+  width: 110px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+}
+.contact-form-mail-button:hover {
+  border: 1px solid green;
+  color: green;
+  background-color: black;
+}
+.contact-form-mail-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.contact-form-h4-head {
+  color: violet;
+}
+@media(max-width:719px){
+    .Contactform-form-div{
+        flex-direction: column;
+       
+    }
+}

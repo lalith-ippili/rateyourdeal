@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.Buyingnamvbar-total-div {
+  background-color: rgb(224, 223, 223);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+.buyingnavbar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Buyingnamvbar-total-div h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+}
+.Searchbarinput1 {
+  height: 35px;
+  width: 498px;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+
+  box-shadow: 2px 2px 4px 4px rgb(214, 214, 214);
+}
+.Buyproductsblock {
+  display: none;
+}
+@media(max-width:865px){
+  .Searchbarinput1 {
+    height: 35px;
+    width: 298px;
+   
+  }
+}

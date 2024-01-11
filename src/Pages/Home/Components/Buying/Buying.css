@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Buying-below-total-page {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  color: black;
+  margin-top: 20px;
+}
+
+
+
+
+.Buying-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+}
+
+.Background-details {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Buying-products-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BuyingNavbar-div {
+}
+@media(max-width:865px){
+  .buying-side-bar{
+    display: none;
+  }
+  .Buying-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+}

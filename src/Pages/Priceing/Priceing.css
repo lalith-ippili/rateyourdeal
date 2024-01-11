@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Price-details-navbar-div {
+  background-color: black;
+  height: 60px;
+}
+.Price-details-total-div {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+}
+.only-prices-div {
+  background-color: rgb(190, 216, 216);
+  width: 80vw;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.Price-details-Sidebar {
+  display: flex;
+}
+.only-prices-div-main-head {
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+.Srikakulam-table {
+  font-weight: bold;
+  text-align: center;
+  height: 180px;
+  width: 1100px;
+  padding: 20px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+table {
+  border-spacing: 10px;
+}
+.table-caption-head {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 1100px;
+  background-color: rgb(32, 32, 32);
+}
+.Srikakulam-table th {
+}
+.Srikakulam-table th:hover {
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  padding: 0px;
+  background-color: rgb(190, 216, 216);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Srikakulam-table td:hover {
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  padding: 0px;
+  background-color: rgb(190, 216, 216);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media (max-width: 1414px) {
+  .table-caption-head {
+    width: 100%;
+  }
+  .Srikakulam-table {
+    width: 100%;
+  }
+}
+@media (max-width: 920px) {
+  .Search-total-div {
+    height: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .Price-details-total-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .only-prices-div {
+    width: 100%;
+  }
+  .tables-div-pricees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Price-details-Sidebar {
+    height: 300px;
+    display: flex;
+    overflow: scroll;
+    width: 500px;
+  }
+  .Search-total-div {
+    height: 300px;
+    display: flex;
+    width: 500px;
+  }
+}

@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-total-div {
+  background-image: url("https://i.pinimg.com/564x/be/4c/00/be4c000ed421db9b54c1e9fd31bf2203.jpg");
+  background-position: fixed;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-total-div-head{
+    font-size: 40px;
+}
+.header-paragraph{
+  text-align: center;
+}

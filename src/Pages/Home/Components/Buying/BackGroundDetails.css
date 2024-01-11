@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+h1{
+    color: black;
+}
+.Background-details-images{
+    height: 230px;
+    width:240px;
+    border-radius: 10px;
+}
+
+.Background-details-content p{
+    color: black;
+}
+
+
+.Background-details-single-div{
+   border-radius: 20px;
+    width:270px;
+    background-color: rgb(203, 254, 254);
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  padding: 10px;
+}
+
+.Background-details-single-div:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+ 
+  
+}
+
+.Background-details-cards-div{
+   height: 100%;
+   width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(237, 236, 236);
+    padding:20px 0px;
+    margin-top: 10px;
+   
+ 
+   
+}
+
+.Background-details-total-div{
+    gap: 20px;
+    display: flex;
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+    height: 100%;
+    width: 100vw;
+}
