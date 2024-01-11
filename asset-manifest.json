@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rateyourdeal/static/css/main.c60758f3.css",
-    "main.js": "/rateyourdeal/static/js/main.f9c514c6.js",
-    "static/js/787.1937f22b.chunk.js": "/rateyourdeal/static/js/787.1937f22b.chunk.js",
+    "main.js": "/rateyourdeal/static/js/main.44dc28b5.js",
+    "static/js/787.64149f7a.chunk.js": "/rateyourdeal/static/js/787.64149f7a.chunk.js",
     "static/media/spacevedio.mp4": "/rateyourdeal/static/media/spacevedio.b383c8513388229cbd89.mp4",
     "static/media/vegetablevideo.mp4": "/rateyourdeal/static/media/vegetablevideo.21415236b72dd76d4063.mp4",
     "static/media/fa-solid-900.ttf": "/rateyourdeal/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -23,11 +23,11 @@
     "index.html": "/rateyourdeal/index.html",
     "static/media/facebook.svg": "/rateyourdeal/static/media/facebook.8efa4f5d4b7bb3dd22f5607a10586880.svg",
     "main.c60758f3.css.map": "/rateyourdeal/static/css/main.c60758f3.css.map",
-    "main.f9c514c6.js.map": "/rateyourdeal/static/js/main.f9c514c6.js.map",
-    "787.1937f22b.chunk.js.map": "/rateyourdeal/static/js/787.1937f22b.chunk.js.map"
+    "main.44dc28b5.js.map": "/rateyourdeal/static/js/main.44dc28b5.js.map",
+    "787.64149f7a.chunk.js.map": "/rateyourdeal/static/js/787.64149f7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c60758f3.css",
-    "static/js/main.f9c514c6.js"
+    "static/js/main.44dc28b5.js"
   ]
 }
