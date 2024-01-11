@@ -1,7 +1,7 @@
 {
   
  "homepage": " https://lalith-ippili.github.io/rateyourdeal/",
-  "name": "myapp",
+  "name": "rateyourdeal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

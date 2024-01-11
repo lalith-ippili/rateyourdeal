@@ -30,7 +30,7 @@ console.log(Psearch)
     <div className='buyingnavbar-content'>
         <Link to={"/rateyourdeal"}><h1>Home</h1></Link>
         <h1>Cart</h1>
-        <Link to={"/Login"}><h1>Home</h1></Link>
+        <Link to={"/Login"}><h1>Login</h1></Link>
     </div>
    </div>
    </>
