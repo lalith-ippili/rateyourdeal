@@ -102,7 +102,7 @@ const Services = () => {
                 <Slider {...settings}>
                     {iamgesarr.map((each) => {
                         return (
-                            <div key={each.id}  onClick={() => window.location.replace("/#Home")}>
+                            <div key={each.id}  onClick={() => window.location.replace("/rateyourdeal")}>
                                 <img src={each.img1} className="services-images" />
                             </div>
                         )
